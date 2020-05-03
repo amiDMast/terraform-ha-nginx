@@ -23,3 +23,14 @@ Run `terraform destroy`
 ```sh 
 terraform destroy
 ```
+
+### Run with variables `-var="region=eu-west-1" -var="key=id_rsa"`
+```sh
+terraform apply -var="region=eu-west-1" -var="key=id_rsa"
+```
+
+### Destroy 
+```sh
+terraform destroy -var="region=eu-west-1" -var="key=id_rsa"
+```
+
