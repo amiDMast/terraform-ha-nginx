@@ -25,7 +25,7 @@ terraform destroy
 ```
 
 ## Run with variables 
-Use `-var="region=eu-west-1" -var="key=id_rsa"`
+*Use `-var="*****"`*
 ```sh
 terraform apply -var="region=eu-west-1" -var="key=id_rsa"
 ```
