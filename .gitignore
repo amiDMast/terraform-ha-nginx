@@ -1,0 +1,6 @@
+.terraform/
+.state/
+.env
+terraform.tfstate 
+terraform.tfstate.backup 
+errored.tfstate
